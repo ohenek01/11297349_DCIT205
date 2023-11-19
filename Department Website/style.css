@@ -106,15 +106,15 @@ li a{
     }
     
     .nav-bar ul{
-      width: 500px;
+      width: 2300px;
       height: 200px;
-      right: 200px
+      
     }
 
     .nav-bar ul:hover {
       display: block;
       width: 500px;
-      height: 200px;
+      height: 270px;
       z-index: 2;
       background-color: #3d9ff4ee;
     }
