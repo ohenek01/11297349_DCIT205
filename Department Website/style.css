@@ -18,16 +18,14 @@
     justify-content: space-around;
     position: fixed;
     top: -0.2px;
-    left: 650px;
+    left: 640px;
     width: 615px;
     height: 40px;
     margin-left: -8px;
     margin-top: -2px;
     text-decoration: none;
     list-style: none;
-    padding: 8px;
-    
-    
+    padding: 8px;  
 }
 
 
