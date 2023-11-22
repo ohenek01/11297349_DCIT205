@@ -115,6 +115,7 @@ li a{
   text-align: center;
 }
 
+
    #intro h2{
     text-align: center;
     color: #4b5c9b;
@@ -154,18 +155,18 @@ li a{
    }
 
    .container{
-      width: 300px;
+      width: 200px;
       position: relative;
       top: 65px;
-      right: -50px;
+      right: -30px;
       text-align: center;
    }
 
    .container2{
-      width: 300px;
+      width: 200px;
       position: relative;
-      right: -500px;
-      top: -120px;
+      right: -400px;
+      top: -185px;
     }
 
     .container2 p{
