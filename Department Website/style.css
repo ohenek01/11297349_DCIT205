@@ -76,6 +76,31 @@ li a{
     color: #f1f1f1cc;
    }
 
+   .org{
+    width: 500px;
+    text-align: center;
+    position: relative;
+    right: -20px;
+   }
+
+
+   .community{
+    width: 600px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: -300px;
+   }
+
+
+   .future{
+    width: 600px;
+    text-align: center;
+    position:relative;
+    top: -340px; 
+    right: -600px;     
+}
+
    #intro h2{
     text-align: center;
     color: #4b5c9b;
@@ -94,6 +119,7 @@ li a{
 
    #intro p{
     text-align-last: center;
+    text-align: center;
    }
 
    li a:hover{
@@ -101,16 +127,25 @@ li a{
    }
 
    .container{
-      width: 400px;
+      width: 300px;
       position: relative;
       top: 20px;
+      right: -50px;
+      text-align: center;
    }
 
    .container2{
-      width: 400px;
+      width: 300px;
       position: relative;
       right: -500px;
       top: -150px;
+    }
+
+    .container2 p{
+      position: relative;
+      top: -25px;
+      right: 50px;
+      text-align: center;
     }
 
     .container-head2{
@@ -124,7 +159,8 @@ li a{
       display: flex;
       justify-content: center;  
       position: relative;
-      top: -15px;
+      top: -30px;
+      right: 30px;
     }
 
     .container a{
@@ -142,6 +178,8 @@ li a{
       font-weight: bold;
       display: flex;
       justify-content: center;
+      position: relative;
+      right: -40px;
     }
 
    @media screen and (max-width: 1250px) {
