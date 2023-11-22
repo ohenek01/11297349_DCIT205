@@ -85,10 +85,10 @@ li a{
 
 
    .community{
-    width: 600px;
+    width: 700px;
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 20px;
     right: -300px;
    }
 
@@ -97,7 +97,7 @@ li a{
     width: 600px;
     text-align: center;
     position:relative;
-    top: -340px; 
+    bottom: 300px; 
     right: -600px;     
 }
 
