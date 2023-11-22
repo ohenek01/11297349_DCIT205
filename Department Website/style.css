@@ -1,9 +1,10 @@
 *{
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .dashboard{
-    background-color: #010120;
+    background-color: #0e0e3b;
     width: 100%;
     height: 5rem;
     position: fixed;
@@ -60,7 +61,13 @@ li a{
     position: relative;
     top: -17px;
     margin-left: 20px;
-    color:#c6c6de
+    color:#c6c6de;
+    position: relative;
+    right: -90px;
+   }
+
+   .logo-bar img{
+    width: 250px;
    }
 
 
@@ -101,6 +108,13 @@ li a{
     right: -600px;     
 }
 
+.welcome{
+  width: 900px;
+  position: relative;
+  right: -150px;
+  text-align: center;
+}
+
    #intro h2{
     text-align: center;
     color: #4b5c9b;
@@ -122,14 +136,27 @@ li a{
     text-align: center;
    }
 
-   li a:hover{
-    color: #8caccbcc
+   li a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    background: #5583c7;
+    left: 0;
+    bottom: 0;
+    transform: scale(0,1);
+    transition: transform 0.2s ease-in;
+   }
+
+   li a:hover::after{
+    transform: scale(1,1);
+    transform-origin: bottom left;
    }
 
    .container{
       width: 300px;
       position: relative;
-      top: 20px;
+      top: 65px;
       right: -50px;
       text-align: center;
    }
@@ -138,7 +165,7 @@ li a{
       width: 300px;
       position: relative;
       right: -500px;
-      top: -150px;
+      top: -120px;
     }
 
     .container2 p{
@@ -148,9 +175,30 @@ li a{
       text-align: center;
     }
 
+    .container3{
+      width: 200px;
+      position: relative;
+      top: -435px;
+      right: -650px;
+    }
+
+    .container-head3{
+      background-color: #5583c7;
+      width: 210px;
+      height: 70px;
+      text-align: center;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      right: -0px;
+    }
+
     .container-head2{
       background-color: #5583c7;
-      width: 250px;
+      width: 200px;
       height: 70px;
       color: white;
       text-align: center;
@@ -160,7 +208,7 @@ li a{
       justify-content: center;  
       position: relative;
       top: -30px;
-      right: 30px;
+      right: 50px;
     }
 
     .container a{
@@ -170,7 +218,7 @@ li a{
 
     .container-head{
       background-color: #5583c7;
-      width: 250px;
+      width: 200px;
       height: 70px;
       color: white;
       text-align: center;
@@ -179,7 +227,7 @@ li a{
       display: flex;
       justify-content: center;
       position: relative;
-      right: -40px;
+      right: -0px;
     }
 
    @media screen and (max-width: 1250px) {
