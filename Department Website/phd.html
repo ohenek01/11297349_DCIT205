@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="University_of_Ghana-removebg-preview.png" type="image/x-icon">
+    <title>Department of Computer Science</title>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="nav-bar">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href= "about.html">About</a></li>
+            <div class="courses">
+                <button class="course-btn">Courses</button>
+                <div class="course-option">
+                <li><a href="programs.html">Undergraduate</a></li>
+                <li><a href="graduate.html">Graduate</a></li>
+                <li><a href="phd.html">PHD</a></li>
+                <li><a href="short.html">Short-Courses</a></li>
+                </div>
+            </div>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="research.html">Research</a></li>
+         </ul>
+        </div>
+        <div class="logo-bar">
+            <img src="Coming_SoOn_new-removebg-preview.png" class="logo">
+        </div>
+    </div>
+    <div class="b-image">
+        <img src="g4.jpg">
+    </div>
+    <div class="banner">
+        <h2>PHD</h2>
+    </div>
+    <div class="phd">
+        <h2>PHD Programmes</h2>
+        <p>
+            Our doctoral programme is a full-time research programme with expected duration of 4-years. For the successful completion of this programme, a high level of commitment is required.
+
+Students are therefore expected to reside close to the University and be a full-time participant in the program. With guidance from postgraduate committee, Ph.D. students will create a personalized program of study that includes a major area of specialization and at least two minor areas of specialization.
+
+In addition to coursework, the department holds regular seminars where students and faculty review and critique research in the field. To foster prudent critique, students are expected to join at most one research lab and participate in research activities carried out by the group. The research areas of the department are Intelligent Space and Machine Learning, Data Science/Big Data Analytics, Networking and Communications Engineering, and Cyber Security
+        </p>
+        <img src="RProf.jpg">
+    </div>
+
+    <h3>P.H.D IN COMPUTER SCIENCE</h3><style>h3{text-align: center; position: relative;top: -220px;}</style>
+
+    <div class="phd_drop">
+    <div class="phd_dropdown">
+        <button onclick="toggleDropdown7()" class="dropbtn7">Year 1</button>
+    <div id="l7_drop" class="l7_courses">
+        <h4>First Semester</h4>
+        <p>FASC 701</p>
+        <p>FASC 700</p>
+        <h5>Electives</h5>
+        <p>CSCD 721</p>
+        <p>CSCD 723</p>
+        <p>CSCD 725</p>
+        <p>CSCD 727</p>
+        <h4>Second Semester</h4>
+        <p>CSCD 722</p>
+        <p>CSCD 702</p>
+        <h5>Electives</h5>
+        <p>CSCD 724</p>
+        <p>CSCD 726</p>
+        <p>CSCD 716</p>
+        <p>CSCD 728</p>
+        <p>CSCD 732</p>
+        <p>CSCD 710</p>
+    </div>
+    </div>
+
+    <div class="phd_dropdown1">
+        <button onclick="toggleDropdown8()" class="dropbtn8">Year 2</button>
+    <div id="l8_drop" class="l8_courses">
+        <h4>First Semester</h4>
+        <p>CSCD 710	</p>
+        <h4>Second Semester</h4>
+        <p>CSCD 720</p>
+    </div>
+    </div>
+
+    <div class="phd_dropdown2">
+        <button onclick="toggleDropdown9()" class="dropbtn9">Year 3</button>
+    <div id="l9_drop" class="l9_courses">
+        <h4>First Semester</h4>
+        <p>CSCD 730</p>
+    </div>
+    </div>
+
+    <div class="phd_dropdown3">
+        <button onclick="toggleDropdown10()" class="dropbtn10">Year 4</button>
+    <div id="l10_drop" class="l10_courses">
+        <h4>Second Semester</h4>
+        <p>CSCD 740</p>
+        <p>CSCD 700</p>
+    </div>
+    </div>
+    <script>
+         function toggleDropdown7(){
+            var phd_dropdown = document.getElementById("l7_drop");
+            if (phd_dropdown.style.display === "none"){
+                phd_dropdown.style.display = "block";
+            }
+            else{
+                phd_dropdown.style.display = "none";
+            }
+        }
+
+        function toggleDropdown8(){
+            var phd_dropdown1 = document.getElementById("l8_drop");
+            if (phd_dropdown1.style.display === "none"){
+                phd_dropdown1.style.display = "block";
+            }
+            else{
+                phd_dropdown1.style.display = "none";
+            }
+        }
+
+        function toggleDropdown9(){
+            var phd_dropdown2 = document.getElementById("l9_drop");
+            if (phd_dropdown2.style.display === "none"){
+                phd_dropdown2.style.display = "block";
+            }
+            else{
+                phd_dropdown2.style.display = "none";
+            }
+        }
+
+        function toggleDropdown10(){
+            var phd_dropdown3 = document.getElementById("l10_drop");
+            if (phd_dropdown3.style.display === "none"){
+                phd_dropdown3.style.display = "block";
+            }
+            else{
+                phd_dropdown3.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
