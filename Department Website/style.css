@@ -7,6 +7,7 @@
 body{
   max-height: 500px;
   overflow-x: hidden;
+  background-color: #f1d1a1;
 }
 
 
@@ -51,7 +52,7 @@ li a{
 
    .b-image img{
     width: 1000px;
-    height: 15rem;
+    height: 25rem;
     position: relative;
     top: 80px;
     right: -130px;
@@ -92,11 +93,19 @@ li a{
     color: #f1f1f1cc;
    }
 
+
+
    .org{
-    width: 500px;
-    text-align: center;
+    width: 1200px;
+    text-align: left;
     position: relative;
-    right: -20px;
+    left: 20px;
+    bottom: 20px;
+    
+   }
+
+   .org_content{
+    width: 500px;
    }
 
    .org a{
@@ -106,21 +115,31 @@ li a{
 
 
    .community{
-    width: 700px;
+    width: 1200px;
     text-align: center;
     position: relative;
-    top: 60px;
-    right: -250px;
+    top: 150px;
+    right: 0px;
+   }
+
+   .community_content{
+    width: 500px;
    }
 
 
    .future{
-    width: 600px;
+    width: 1200px;
     text-align: center;
     position:relative;
-    bottom: 300px; 
-    right: -600px;     
+    bottom: 170px; 
+       
 }
+
+  .future_content{
+    width: 500px;
+    position: relative;
+    left: 730px; 
+  }
 
 .welcome{
   width: 900px;
@@ -130,9 +149,10 @@ li a{
 }
 
 .d-learning{
-  width: 1000px;
+  width: 500px;
   position: relative;
-  right: -100px;
+  left: 730px;
+  bottom: 40px;
 }
 
 .undergrad{
@@ -572,12 +592,27 @@ li a{
     }
 
    .contact_button button{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0e0e3b;
+    color: #fff;
     width: 300px;
     height: 30px;
-    position: relative;
-    bottom: 600px;
-    left: 500px;
+    position: absolute;
+    top: 400px;
+    right: 750px;
+    margin-bottom: 30px;
+   }
+
+   .event_image{
+    width: 600px;
+    position: absolute;
+    top: 830px;
+   }
+
+   .event_content{
+    width: 400px;
+    position: absolute;
+    top: 820px;
+    left: 700px;
    }
     
 
@@ -705,17 +740,18 @@ li a{
     }
 
     .button{
-      position: relative;
-      bottom: 1070px;
-      left: 550px;
+      position: absolute;
+      top: 400px;
+      left: 00px;
       z-index: 1;
     }
 
     .button button{
       width: 200px;
       height: 50px;
-      color: #f1d1a1;
+      color: black;
       background-color: transparent;
+      margin-bottom: 30px;
     }
 
     .events{
@@ -797,8 +833,6 @@ li a{
 
     .info{
       background-color: #f0e8e8;
-      position: relative;
-      left: 80px;
     }
 
     .form{
@@ -834,6 +868,134 @@ li a{
       position: relative;
       top: 50px;
     }
+
+    .home_container{
+      background-color: #f1d1a1;
+      max-height: 600px;
+    }
+
+    .research-section h3{
+      text-align: center;
+    }
+
+    .research_pic{
+      width: 700px;
+    }
+
+    .research_content{
+      width: 400px;
+      position: absolute;
+      top: 565px;
+      left: 800px;
+    }
+
+
+    .welcome_content{
+      width: 400px;
+      position: absolute;
+      top: 520px;
+      left: 100px;
+      font-size: 1.1rem;
+    }
+
+    .welcome_image{
+      width: 500px;
+      position: absolute;
+      top: 550px;
+      left: 650px;
+    }
+
+
+  .undergrad_content{
+    width: 400px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+  }
+
+  .undergrads_image{
+    width: 400px;
+    position: absolute;
+    top: 1020px;
+    left: 80px;
+  }
+
+  .undergrad_links{
+    width: 700px;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+  }
+
+  .undergrad_links a, .grads_links a, .international_links a{
+    text-decoration: none;
+    color:#0e0e3b;
+  }
+
+  .graduates_content{
+    width: 300px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 1300px;
+    left: 500px;
+  }
+
+  .grads_image{
+    width: 400px;
+    position: absolute;
+    top: 1320px;
+    left: 80px;
+  }
+
+  .grads_links{
+    width: 700px;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+  }
+
+
+  .international_content{
+    width: 400px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 1680px;
+    left: 500px;
+  }
+
+  .international_image{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 1720px;
+    left: 80px;
+  }
+
+  .international_links{
+    width: 700px;
+    text-align: right;
+    position: absolute;
+    top: 0px;
+  }
+
+  .entry_image{
+    width: 600px;
+    position: absolute;
+    left: 50px;
+  }
+
+  .entry_content{
+    width: 400px;
+    position: absolute;
+    top: 550px;
+    right: 160px;
+  }
+
+  .highlight{
+    color: #0e0e3b;
+    font-weight: bold;
+  }
 
    @media screen and (max-width: 1250px) {
     .nav-bar {
