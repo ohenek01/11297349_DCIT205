@@ -848,6 +848,12 @@ li a{
       margin: 6px;
     }
 
+    .form button{
+      background-color: #0e0e3b;
+      color: #fff;
+      border-radius: 5px;
+    }
+
     .message{
       position: relative;
       left: 430px;
