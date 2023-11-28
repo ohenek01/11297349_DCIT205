@@ -11,6 +11,8 @@ This website is an Interim Assignment. This website is supposed to be a 10 page 
   * From this project i've learnt how to use version control.
   * I've learnt how to use css, html and still learning how to use javascript.
   * I've learnt how to improvise.
+    ### Author Information
+    Ohene Kwadwo Osafo-Affum - 11297349
 ## Screenshots of my webpage
 
 ![Screenshot (12)](https://github.com/ohenek01/11297349_DCIT205/assets/144062701/b6394db1-7be7-4c9f-a122-c55e5dcd2ad5)
